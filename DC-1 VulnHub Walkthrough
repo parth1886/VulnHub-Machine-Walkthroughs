@@ -1,0 +1,55 @@
+# DC-1 VulnHub Walkthrough  
+
+## Description  
+DC-1 is a beginner-friendly VulnHub machine designed to help users practice penetration testing techniques such as enumeration, exploitation, and privilege escalation. This walkthrough provides a step-by-step guide to owning the machine and capturing the root flag.  
+
+---
+
+## Key Information  
+- **Difficulty:** Beginner  
+- **Target IP:** Discovered during enumeration (e.g., `192.168.1.100`)  
+- **Objective:** Gain root access and capture the flag.  
+
+---
+
+## Walkthrough  
+
+### 1. **Network Enumeration**  
+- Scan the network and identify open ports using `nmap`.  
+- Analyze running services and potential attack vectors.  
+
+### 2. **Web Enumeration (Port 80)**  
+- Inspect the website for hidden directories using tools like `gobuster`.  
+- Access files like `robots.txt` or backup files to extract sensitive information.  
+
+### 3. **Exploitation**  
+- Use the extracted credentials to access the system through SSH.  
+- Explore the target to identify possible privilege escalation paths.  
+
+### 4. **Privilege Escalation**  
+- Enumerate the system for SUID binaries or misconfigurations.  
+- Exploit vulnerabilities to gain root access.  
+
+### 5. **Capture the Flag**  
+- Locate and read the flag file in the `/root` directory.  
+
+---
+
+## Tools Used  
+- `netdiscover` – To identify the target IP.  
+- `nmap` – For port scanning and service enumeration.  
+- `gobuster` – To discover hidden directories.  
+- `wget` – To download files from the target.  
+- `ssh` – To access the target remotely.  
+- `strings` – For analyzing binaries.  
+
+---
+
+## Walkthrough File  
+For the detailed step-by-step guide, see the [https://youtu.be/SqpUO9W4hzU](./walkthrough.md).  
+
+ 
+---
+
+## Disclaimer  
+This walkthrough is for **educational purposes only**. Do not use these techniques on any system without proper author
