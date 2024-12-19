@@ -1,0 +1,71 @@
+# Moneybox VulnHub Walkthrough  
+
+## Description  
+Moneybox is an intermediate-level VulnHub machine designed to enhance skills in enumeration, exploitation, and privilege escalation. This walkthrough provides a detailed guide to owning the machine and capturing the root flag.  
+
+🎥 Watch the walkthrough video on YouTube: [Moneybox Walkthrough](https://youtu.be/tWsNXlKfUCI)  
+
+---
+
+## Key Information  
+- **Difficulty:** Intermediate  
+- **Target IP:** Discovered during enumeration (e.g., `192.168.1.110`)  
+- **Objective:** Gain root access and capture the flag.  
+
+---
+
+## Walkthrough  
+
+### 1. **Network Enumeration**  
+- Use `nmap` to scan for open ports and services.  
+- Perform a detailed scan to identify potential vulnerabilities.  
+
+### 2. **Web Enumeration (Port 80)**  
+- Inspect the website hosted on the target.  
+- Use tools like `gobuster` to discover hidden directories and files.  
+
+### 3. **Exploitation**  
+- Exploit vulnerabilities in the web application or services to gain initial access.  
+- Utilize the extracted information to escalate privileges.  
+
+### 4. **Privilege Escalation**  
+- Enumerate the target system for misconfigured binaries or services.  
+- Exploit the system to gain root privileges.  
+
+### 5. **Capture the Flag**  
+- Locate and read the flag file in the `/root` directory.  
+
+---
+
+## Tools Used  
+- `nmap` – For network and service enumeration.  
+- `gobuster` – To brute-force directories and files.  
+- `hydra` – For password attacks.  
+- `wget` – To download files from the target.  
+- `ssh` – To access the target remotely.  
+- `linpeas.sh` – For privilege escalation enumeration.  
+
+---
+
+## Walkthrough File  
+For the detailed step-by-step guide, see the [walkthrough](./walkthrough.md).  
+
+---
+
+## Screenshots  
+Screenshots of critical steps are available in the [screenshots](./screenshots/) directory.  
+
+---
+
+## YouTube Walkthrough  
+Watch the complete walkthrough on YouTube: [Moneybox Walkthrough](https://youtu.be/tWsNXlKfUCI).  
+
+---
+
+## Disclaimer  
+This walkthrough is for **educational purposes only**. Do not use these techniques on any system without proper authorization.  
+
+---
+
+### Author  
+Created by [Parth Virani](https://github.com/parth1886).  
