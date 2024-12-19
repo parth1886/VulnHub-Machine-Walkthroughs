@@ -1,4 +1,4 @@
-# DC-1 VulnHub Walkthrough  
+# DC-1 VulnHub Walkthrough   
 
 ## Description  
 DC-1 is a beginner-friendly VulnHub machine designed to help users practice penetration testing techniques such as enumeration, exploitation, and privilege escalation. This walkthrough provides a step-by-step guide to owning the machine and capturing the root flag.  
