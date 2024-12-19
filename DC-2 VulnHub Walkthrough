@@ -1,0 +1,65 @@
+# DC-2 VulnHub Walkthrough  
+
+## Description  
+DC-2 is a beginner-to-intermediate level VulnHub machine that challenges users to improve their penetration testing skills. This walkthrough provides a step-by-step guide to exploiting vulnerabilities, gaining root access, and capturing the final flag.  
+
+---
+
+## Key Information  
+- **Difficulty:** Beginner to Intermediate  
+- **Target IP:** Discovered during enumeration (e.g., `192.168.1.101`)  
+- **Objective:** Gain root access and capture the flag.  
+
+---
+
+## Walkthrough  
+
+### 1. **Network Enumeration**  
+- Use tools like `netdiscover` or `arp-scan` to find the target IP address.  
+- Perform a comprehensive port scan using `nmap` to identify open services.  
+
+### 2. **Web Enumeration (Port 80)**  
+- Analyze the website for potential entry points, hidden directories, or vulnerabilities.  
+- Use tools like `gobuster` or `dirsearch` to discover hidden paths.  
+
+### 3. **Exploitation**  
+- Identify and exploit vulnerabilities in the discovered services or web applications.  
+- Use the extracted credentials or information to gain initial access.  
+
+### 4. **Privilege Escalation**  
+- Enumerate the system to find privilege escalation paths, such as SUID binaries or configuration issues.  
+- Exploit the identified weaknesses to gain root privileges.  
+
+### 5. **Capture the Flag**  
+- Navigate to the `/root` directory to locate and read the flag file.  
+
+---
+
+## Tools Used  
+- `netdiscover` – Network discovery tool.  
+- `nmap` – Port scanning and service enumeration.  
+- `gobuster` – Hidden directory brute-forcing.  
+- `wget` – Downloading files from the target.  
+- `ssh` – Remote access to the target machine.  
+- `linpeas` – Automated privilege escalation script.  
+
+---
+
+## Walkthrough Video  
+For a detailed walkthrough of DC-2, watch the accompanying video:  
+[![DC-2 Walkthrough](https://img.youtube.com/vi/iSmH6prL1eg/0.jpg)](https://youtu.be/iSmH6prL1eg)  
+
+---
+
+## Screenshots  
+Screenshots of critical steps are available in the [screenshots](./screenshots/) directory.  
+
+---
+
+## Disclaimer  
+This walkthrough is for **educational purposes only**. Do not use these techniques on any system without proper authorization.  
+
+---
+
+### Author  
+Created by [Parth Virani](https://github.com/parth1886).  
