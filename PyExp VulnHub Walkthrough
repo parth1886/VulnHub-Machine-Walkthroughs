@@ -1,0 +1,71 @@
+# PyExp VulnHub Walkthrough  
+
+## Description  
+PyExp is a VulnHub machine designed to test your skills in enumeration, exploitation, and privilege escalation. This walkthrough provides a step-by-step guide to owning the machine and capturing the root flag.  
+
+---
+
+## Walkthrough Video  
+Watch the full walkthrough on my YouTube channel:  
+[![PyExp Walkthrough](https://img.youtube.com/vi/PLn5rzLsN9A/0.jpg)](https://youtu.be/PLn5rzLsN9A)  
+
+---
+
+## Key Information  
+- **Difficulty:** Intermediate  
+- **Target IP:** Discovered during enumeration (e.g., `192.168.1.105`)  
+- **Objective:** Gain root access and capture the flag.  
+
+---
+
+## Walkthrough Steps  
+
+### 1. **Network Enumeration**  
+- Use `netdiscover` or a similar tool to identify the target IP.  
+- Perform a detailed scan with `nmap` to find open ports and services.  
+
+### 2. **Web Enumeration**  
+- Analyze the website hosted on the target.  
+- Use tools like `gobuster` to enumerate hidden directories.  
+
+### 3. **Code and Script Analysis**  
+- Explore Python scripts on the target system.  
+- Identify vulnerabilities or backdoors that can be exploited.  
+
+### 4. **Privilege Escalation**  
+- Enumerate the target for potential privilege escalation paths, such as vulnerable binaries or misconfigured services.  
+- Exploit a discovered vulnerability to gain root access.  
+
+### 5. **Capture the Flag**  
+- Locate the flag file (usually in `/root`) and read its contents.  
+
+---
+
+## Tools Used  
+- `netdiscover` – Identify the target IP.  
+- `nmap` – Port scanning and service enumeration.  
+- `gobuster` – Directory enumeration.  
+- `python` – Script analysis and exploitation.  
+
+---
+
+## Screenshots  
+All relevant screenshots are available in the [screenshots](./screenshots/) directory.  
+
+---
+
+## Walkthrough File  
+For a detailed step-by-step guide, see the [walkthrough](./walkthrough.md).  
+
+---
+
+## Disclaimer  
+This walkthrough is for **educational purposes only**. Do not use these techniques on any system without explicit authorization.  
+
+---
+
+### Author  
+Created by [Parth Virani](https://github.com/parth1886).  
+
+---
+
