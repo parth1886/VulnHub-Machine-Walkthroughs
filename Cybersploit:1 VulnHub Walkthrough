@@ -1,0 +1,69 @@
+# Cybersploit:1 VulnHub Walkthrough  
+
+## Description  
+Cybersploit:1 is a VulnHub machine designed to help users practice real-world penetration testing techniques. This walkthrough provides a detailed step-by-step guide to exploit the machine and achieve root access.  
+
+---
+
+## Key Information  
+- **Difficulty:** Beginner to Intermediate  
+- **Target IP:** Discovered during enumeration (e.g., `192.168.1.101`)  
+- **Objective:** Gain root access and capture the flag.  
+- **YouTube Walkthrough:** [Watch on YouTube](https://youtu.be/JWAbaJraLdk)  
+
+---
+
+## Walkthrough  
+
+### 1. **Network Enumeration**  
+- Use `nmap` to scan for open ports and running services.  
+- Analyze the results to identify potential attack vectors.  
+
+### 2. **Web Enumeration (if applicable)**  
+- Enumerate web services using tools like `gobuster`.  
+- Inspect website files, hidden directories, or vulnerabilities.  
+
+### 3. **Exploitation**  
+- Use discovered vulnerabilities to gain a foothold on the system.  
+- Exploit misconfigurations or weak passwords.  
+
+### 4. **Privilege Escalation**  
+- Enumerate the system for privilege escalation opportunities.  
+- Exploit SUID binaries, kernel vulnerabilities, or misconfigurations to gain root access.  
+
+### 5. **Capture the Flag**  
+- Locate and read the flag file in the `/root` directory.  
+
+---
+
+## Tools Used  
+- `nmap` – For port scanning and service enumeration.  
+- `gobuster` – To discover hidden directories.  
+- `ssh` – To access the system.  
+- Other tools depending on vulnerabilities discovered.  
+
+---
+
+## Walkthrough File  
+For the detailed step-by-step guide, see the [walkthrough](./walkthrough.md).  
+
+---
+
+## Screenshots  
+Screenshots of key steps are available in the [screenshots](./screenshots/) directory.  
+
+---
+
+## Watch the Walkthrough  
+For a complete walkthrough, watch the video on YouTube:  
+[![Cybersploit:1 Walkthrough](https://img.youtube.com/vi/JWAbaJraLdk/0.jpg)](https://youtu.be/JWAbaJraLdk)  
+
+---
+
+## Disclaimer  
+This walkthrough is for **educational purposes only**. Do not use these techniques on any system without proper authorization.  
+
+---
+
+### Author  
+Created by [Parth Virani](https://github.com/parth1886).  
