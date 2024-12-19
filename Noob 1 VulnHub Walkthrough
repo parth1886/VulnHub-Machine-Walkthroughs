@@ -1,0 +1,69 @@
+# Noob:1 VulnHub Walkthrough  
+
+## Description  
+Noob:1 is a beginner-friendly machine on VulnHub, aimed at helping users practice basic penetration testing skills. This walkthrough will guide you through the process of exploiting vulnerabilities, gaining access, and escalating privileges to capture the flag.  
+
+---
+
+## Key Information  
+- **Difficulty:** Beginner  
+- **Target IP:** Discovered during enumeration (e.g., `192.168.1.100`)  
+- **Objective:** Gain root access and capture the flag.  
+
+---
+
+## Walkthrough  
+
+### 1. **Network Enumeration**  
+- Use tools like `nmap` to scan for open ports and services on the target.  
+- Look for possible attack vectors based on the service version information.  
+
+### 2. **Web Enumeration (Port 80)**  
+- Inspect the website on Port 80 using a browser or tools like `gobuster` to discover hidden directories and files.  
+- Check for common vulnerabilities in web applications, such as exposed backup files or poorly configured directories.  
+
+### 3. **Exploitation**  
+- Identify potential attack vectors and exploit them to gain initial access.  
+- Use any discovered credentials or vulnerabilities to log in to the system.  
+
+### 4. **Privilege Escalation**  
+- Scan the system for misconfigurations or vulnerable binaries that can be exploited for privilege escalation.  
+- Exploit these vulnerabilities to gain root privileges.  
+
+### 5. **Capture the Flag**  
+- Once you have root access, navigate to the `/root` directory and capture the flag by reading the flag file.  
+
+---
+
+## Tools Used  
+- `nmap` – For port scanning and service discovery.  
+- `gobuster` – To discover hidden directories.  
+- `wget` – To download files from the target.  
+- `ssh` – To access the target via SSH.  
+- `strings` – For inspecting binaries for vulnerabilities.  
+
+---
+
+## Walkthrough File  
+For the detailed step-by-step guide, see the [walkthrough](./walkthrough.md).  
+
+---
+
+## Screenshots  
+Screenshots of critical steps are available in the [screenshots](./screenshots/) directory.  
+
+---
+
+## YouTube Walkthrough  
+Check out my full walkthrough on YouTube: [Noob:1 VulnHub Walkthrough](https://youtu.be/B1RbnaBiK_E)  
+
+---
+
+## Disclaimer  
+This walkthrough is for **educational purposes only**. Do not attempt to exploit vulnerabilities on systems without proper authorization.  
+
+---
+
+### Author  
+Created by [Parth Virani](https://github.com/parth1886).  
+
