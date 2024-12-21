@@ -1,0 +1,64 @@
+# Empire: Breakout VulnHub Walkthrough  
+
+## Description  
+Empire: Breakout is an intermediate-level VulnHub machine designed to challenge and enhance your penetration testing skills. This walkthrough provides a comprehensive guide to enumerating, exploiting, and gaining root access to the machine.  
+
+---
+
+## Key Information  
+- **Difficulty:** Intermediate  
+- **Target IP:** Identified during enumeration (e.g., `192.168.1.105`)  
+- **Objective:** Gain root access and capture the flag.  
+
+---
+
+## Walkthrough  
+
+### 1. **Network Enumeration**  
+- Use `netdiscover` to locate the target machine.  
+- Perform an `nmap` scan to identify open ports and services.  
+
+### 2. **Service Enumeration**  
+- Analyze discovered services for vulnerabilities.  
+- Focus on services running on high-risk ports.  
+
+### 3. **Exploitation**  
+- Identify and exploit weaknesses in the target system.  
+- Use proper tools and scripts to gain initial access.  
+
+### 4. **Privilege Escalation**  
+- Search for misconfigurations, SUID binaries, or vulnerable software.  
+- Escalate privileges to root using a suitable exploit.  
+
+### 5. **Capture the Flag**  
+- Locate the flag file, typically in the `/root` directory, and read its content.  
+
+---
+
+## Video Walkthrough  
+Watch the full walkthrough on YouTube: [Empire: Breakout Walkthrough by Parth Virani](https://youtu.be/CineBdTV-bE).  
+
+---
+
+## Tools Used  
+- `netdiscover` – Identify the target IP.  
+- `nmap` – Perform port and service enumeration.  
+- `gobuster` – Discover hidden directories and files.  
+- `exploit tools` – As needed during the exploitation phase.  
+- `linux privilege escalation scripts` – To find privilege escalation vectors.  
+
+---
+
+## Screenshots  
+Visuals of critical steps are available in the [screenshots](./screenshots/) directory.  
+
+---
+
+## Disclaimer  
+This walkthrough is for **educational purposes only**. Please do not attempt to exploit systems without proper authorization.  
+
+---
+
+### Author  
+Created by [Parth Virani](https://github.com/parth1886).  
+
