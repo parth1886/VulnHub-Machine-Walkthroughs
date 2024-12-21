@@ -1,0 +1,62 @@
+# Katana VulnHub Walkthrough  
+
+## Description  
+Katana is an intermediate-level VulnHub machine designed to test your penetration testing skills. This walkthrough provides a detailed step-by-step guide to exploiting vulnerabilities, achieving root access, and capturing the flag.  
+
+---
+
+## Key Information  
+- **Difficulty:** Intermediate  
+- **Target IP:** Discovered during enumeration (e.g., `192.168.1.101`)  
+- **Objective:** Gain root access and capture the flag.  
+
+---
+
+## Walkthrough  
+
+### 1. **Network Enumeration**  
+- Perform a network scan using `nmap` to identify open ports and services.  
+- Analyze service versions for potential vulnerabilities.  
+
+### 2. **Web Enumeration (if applicable)**  
+- Use tools like `gobuster` or `dirsearch` to discover hidden directories.  
+- Analyze web application behavior and source code for exploitable vulnerabilities.  
+
+### 3. **Exploitation**  
+- Exploit the identified vulnerabilities to gain initial access to the target system.  
+- Extract sensitive information or escalate privileges using available techniques.  
+
+### 4. **Privilege Escalation**  
+- Enumerate the target system to identify misconfigurations or exploitable binaries.  
+- Gain root access by leveraging discovered vulnerabilities.  
+
+### 5. **Capture the Flag**  
+- Navigate to the `/root` directory and read the flag file.  
+
+---
+
+## Tools Used  
+- `nmap` – For port scanning and service enumeration.  
+- `gobuster` – To discover hidden directories.  
+- `ssh` – To access the target remotely.  
+- `linpeas` – To enumerate potential privilege escalation paths.  
+
+---
+
+## Video Walkthrough  
+Watch the complete walkthrough on YouTube: [Katana VulnHub Walkthrough](https://youtu.be/m8XsiZN7w1U)  
+
+---
+
+## Screenshots  
+Screenshots of critical steps are available in the [screenshots](./screenshots/) directory.  
+
+---
+
+## Disclaimer  
+This walkthrough is for **educational purposes only**. Do not attempt to exploit vulnerabilities on systems without proper authorization.  
+
+---
+
+### Author  
+Created by [Parth Virani](https://github.com/parth1886).  
