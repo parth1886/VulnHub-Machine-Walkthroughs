@@ -1,0 +1,62 @@
+# HackathonCTF: 1 VulnHub Walkthrough  
+
+## Description  
+HackathonCTF: 1 is an intermediate-level machine on VulnHub, designed to test skills in enumeration, exploitation, and privilege escalation. This walkthrough provides a step-by-step guide to rooting the machine and capturing the flag.  
+
+---
+
+## Key Information  
+- **Difficulty:** Intermediate  
+- **Target IP:** Discovered during enumeration (e.g., `192.168.1.101`)  
+- **Objective:** Gain root access and capture the flag.  
+
+---
+
+## Walkthrough  
+
+### 1. **Network Enumeration**  
+- Perform a network scan to identify the target IP and open ports.  
+
+### 2. **Service Enumeration**  
+- Analyze services running on open ports to find potential entry points.  
+
+### 3. **Exploitation**  
+- Leverage discovered vulnerabilities to gain initial access.  
+
+### 4. **Privilege Escalation**  
+- Enumerate the system for misconfigurations or vulnerable binaries.  
+- Exploit identified vulnerabilities to escalate privileges to root.  
+
+### 5. **Capture the Flag**  
+- Navigate to the root directory and retrieve the flag.  
+
+---
+
+## Tools Used  
+- `nmap` – For port scanning and service discovery.  
+- `gobuster` – To identify hidden directories.  
+- `exploit-db` – For finding and using public exploits.  
+- `ssh` – To access the target system remotely.  
+
+---
+
+## Watch the Walkthrough  
+📺 Watch the full walkthrough on YouTube: [HackathonCTF: 1 Walkthrough by Parth Virani](https://youtu.be/rp7q2ZKY8GI)  
+
+---
+
+## Screenshots  
+Relevant screenshots of critical steps are included in the [screenshots](./screenshots/) directory.  
+
+---
+
+## Disclaimer  
+This walkthrough is for **educational purposes only**. Do not attempt to exploit any system without proper authorization.  
+
+---
+
+### Author  
+Created by **Parth Virani**  
+- [GitHub](https://github.com/parth1886)  
+- [YouTube](https://www.youtube.com/channel/UC123456789)  
+
