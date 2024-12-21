@@ -1,0 +1,71 @@
+# Cybersploit 2 VulnHub Walkthrough  
+
+## Description  
+Cybersploit 2 is an intermediate-level VulnHub machine designed to challenge penetration testers with enumeration, exploitation, and privilege escalation tasks. This walkthrough provides step-by-step guidance to own the machine and capture the root flag.  
+
+---
+
+## Key Information  
+- **Difficulty:** Intermediate  
+- **Target IP:** Discovered during enumeration (e.g., `192.168.1.105`)  
+- **Objective:** Gain root access and capture the flag.  
+- **Video Walkthrough:** Watch the detailed walkthrough on [YouTube](https://youtu.be/4Bum2c6yyho) by **Parth Virani**.  
+
+---
+
+## Walkthrough  
+
+### 1. **Network Enumeration**  
+- Use `netdiscover` to identify the target IP.  
+- Perform a detailed scan with `nmap` to find open ports and running services.  
+
+### 2. **Web Enumeration (Port 80)**  
+- Analyze the website using tools like `gobuster` or `dirb`.  
+- Identify hidden directories or files that may contain useful information.  
+
+### 3. **Exploitation**  
+- Exploit discovered vulnerabilities in web applications, services, or configurations.  
+- Gain initial access to the system through identified weaknesses.  
+
+### 4. **Privilege Escalation**  
+- Enumerate the system to find misconfigured files, SUID binaries, or kernel exploits.  
+- Leverage these findings to escalate privileges and gain root access.  
+
+### 5. **Capture the Flag**  
+- Navigate to `/root` and read the `flag.txt` file to complete the machine.  
+
+---
+
+## Tools Used  
+- `netdiscover` – For identifying the target IP address.  
+- `nmap` – For network and port scanning.  
+- `gobuster` – For directory enumeration.  
+- `wget` – For downloading files from the target.  
+- `ssh` – For remote login.  
+- `strings` – For analyzing binary files.  
+
+---
+
+## Walkthrough File  
+For a detailed step-by-step guide, see the [walkthrough](./walkthrough.md).  
+
+---
+
+## Screenshots  
+Relevant screenshots are available in the [screenshots](./screenshots/) directory.  
+
+---
+
+## Video Walkthrough  
+🎥 Watch the full walkthrough on YouTube: [Cybersploit 2 Walkthrough](https://youtu.be/4Bum2c6yyho)  
+
+---
+
+## Disclaimer  
+This walkthrough is for **educational purposes only**. Do not use these techniques on unauthorized systems.  
+
+---
+
+### Author  
+Created by **[Parth Virani](https://github.com/parth1886)**.  
+
