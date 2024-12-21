@@ -1,0 +1,71 @@
+# MrRobot:1 VulnHub Walkthrough  
+
+## Description  
+MrRobot:1 is a VulnHub machine inspired by the popular TV series *Mr. Robot*. This machine challenges users with realistic scenarios, requiring skills in enumeration, exploitation, and privilege escalation to gain root access and capture the flags.  
+
+---
+
+## Key Information  
+- **Difficulty:** Intermediate  
+- **Target IP:** Discovered during enumeration (e.g., `192.168.1.100`)  
+- **Objective:** Find and capture all three flags.  
+
+---
+
+## Walkthrough  
+
+### 1. **Network Enumeration**  
+- Use `nmap` to identify open ports and services.  
+- Analyze the results to determine the next steps for exploitation.  
+
+### 2. **Web Enumeration (Port 80)**  
+- Explore the website for hidden directories or files.  
+- Use tools like `gobuster` to brute-force directories and identify useful resources.  
+
+### 3. **Exploitation**  
+- Analyze exposed services and potential vulnerabilities.  
+- Utilize vulnerabilities to gain initial foothold access.  
+
+### 4. **Privilege Escalation**  
+- Enumerate the system for potential weaknesses.  
+- Exploit privilege escalation vectors to gain root access.  
+
+### 5. **Capture the Flags**  
+- Locate and read the flags hidden across the system.  
+
+---
+
+## Tools Used  
+- `nmap` – For port scanning and service enumeration.  
+- `gobuster` – For directory brute-forcing.  
+- `wget` – To download files from the target.  
+- `ssh` – For remote access.  
+- `strings` – To analyze binaries.  
+- Other standard penetration testing tools.  
+
+---
+
+## Walkthrough File  
+For the detailed step-by-step guide, see the [walkthrough](./walkthrough.md).  
+
+---
+
+## Video Walkthrough  
+Watch the full walkthrough on YouTube:  
+[![MrRobot:1 Walkthrough](https://img.youtube.com/vi/xMKik60ZzNo/0.jpg)](https://youtu.be/xMKik60ZzNo)  
+
+---
+
+## Screenshots  
+Screenshots of critical steps are available in the [screenshots](./screenshots/) directory.  
+
+---
+
+## Disclaimer  
+This walkthrough is for **educational purposes only**. Do not use these techniques on any system without proper authorization.  
+
+---
+
+### Author  
+Created by [Parth Virani](https://github.com/parth1886).  
+
