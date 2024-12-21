@@ -1,0 +1,69 @@
+# Empire: Lupinone VulnHub Walkthrough  
+
+## Description  
+Empire: Lupinone is an intermediate-level VulnHub machine designed to challenge users with enumeration, exploitation, and privilege escalation tasks. This walkthrough provides detailed steps to own the machine and capture the root flag.  
+
+---
+
+## Key Information  
+- **Difficulty:** Intermediate  
+- **Target IP:** Discovered during enumeration  
+- **Objective:** Gain root access and capture the flag.  
+
+---
+
+## Walkthrough  
+
+### 1. **Network Enumeration**  
+- Perform network discovery to identify the target IP.  
+- Scan for open ports and running services using `nmap`.  
+
+### 2. **Service Enumeration**  
+- Explore discovered services for vulnerabilities.  
+- Use tools like `gobuster` to enumerate hidden directories on web servers.  
+
+### 3. **Exploitation**  
+- Leverage discovered vulnerabilities to gain initial access.  
+- Analyze the system to identify paths for privilege escalation.  
+
+### 4. **Privilege Escalation**  
+- Enumerate the system for SUID binaries, misconfigurations, or other exploitable vectors.  
+- Exploit these vulnerabilities to gain root access.  
+
+### 5. **Capture the Flag**  
+- Navigate to the `/root` directory to find and read the flag file.  
+
+---
+
+## Tools Used  
+- `netdiscover` – To identify the target IP.  
+- `nmap` – For port scanning and service enumeration.  
+- `gobuster` – To discover hidden directories.  
+- `ssh` – For remote system access.  
+- Various Linux privilege escalation techniques and tools.  
+
+---
+
+## Walkthrough File  
+For a detailed step-by-step guide, see the [walkthrough](./walkthrough.md).  
+
+---
+
+## Screenshots  
+Screenshots of key steps are available in the [screenshots](./screenshots/) directory.  
+
+---
+
+## Video Walkthrough  
+Watch the complete walkthrough on my YouTube channel: [Empire: Lupinone Walkthrough](https://youtu.be/e3HZ9QQwGKE).  
+
+---
+
+## Disclaimer  
+This walkthrough is for **educational purposes only**. Do not use these techniques on any system without proper authorization.  
+
+---
+
+### Author  
+Created by **Parth Virani**.  
+Check out my [GitHub](https://github.com/parth1886) and [YouTube Channel](https://www.youtube.com/@s3cure83).  
